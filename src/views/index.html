@@ -5,7 +5,7 @@
 <title>Ecoleta</title>
 
 {% block styles %}
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/modal.css">
 
@@ -16,8 +16,10 @@
 
     <div class="content">
         <header>
-
-            <img src="/assets/logo.svg" alt="Logomarca">
+            <picture>
+                <source media="(max-width: 905px)" srcset="/assets/logo.svg" type="image/svg">
+                <img src="/assets/logo-nome.svg" alt="Logomarca">
+            </picture>
             <a href="create-point">
                 <span></span>Cadastre um ponto de coleta</a>
 
@@ -31,7 +33,11 @@
                 <strong>Pesquisar pontos de coletas</strong>
             </a>
         </main>
+        <footer>
+            <p>Criada por <a href="https://sitetech.com.br/" target="_blank" rel="external">Site Tech</a> &copy; Todos os direitos reservados - 2021</p>
+        </footer>
     </div>
+    
 
 {% endblock content %}
 
