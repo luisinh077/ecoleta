@@ -110,3 +110,18 @@
 
     text-align: center;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    list-style: none;
+    color: var(--title-color);
+}
+
+footer p {
+    font-size: 9pt;
+    font-weight: bold;
+    color: var(--title-color);
+}
