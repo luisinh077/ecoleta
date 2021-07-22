@@ -101,4 +101,4 @@ server.get("/search", (req, res) => {
 });
 
 // Ligar o servidor
-server.listen(22);
+server.listen(3000);
