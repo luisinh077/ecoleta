@@ -49,6 +49,37 @@
     }
 }
 
+@media (max-width: 800px) {
+    #page-create-point form{
+        padding: 16px;
+    }
+
+    #page-create-point form h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #page-create-point form legend h2 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    #page-create-point form legend span {
+        font-size: 12px;
+        text-align: end;
+    }
+
+    #page-create-point form .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 564px) {
     #page-home header a {
         font-size: 14px;
