@@ -3,6 +3,10 @@
   "scripts": {
     "start": "nodemon src/server.js"
   },
+  "engines": {
+	"node": "14.17.5",
+	"npm": "6.14.14"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.3",
